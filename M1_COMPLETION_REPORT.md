@@ -341,21 +341,18 @@ cd backend
 
 ### 🚨 CRITICAL: API Key Exposure
 
-### Security: Gemini API Key Exposure
+### Gemini API Key Exposure — Resolved
 
-**Issue:** A Gemini API key was exposed in an earlier local configuration/report context and was copied into an earlier version of this report.
+**Issue:** A Gemini API key was exposed in an earlier local configuration/report context.
 
-**Remediation performed:**
-- The exposed key pattern was redacted from the current report.
-- The current staged project files do not include `backend/.env`.
-- The root `.gitignore` excludes `.env` files.
+**Remediation completed:**
+- The previously exposed API key was revoked in Google AI Studio.
+- A replacement API key was generated and configured in local `backend/.env`.
+- `backend/.env` is excluded through `.gitignore`.
+- Live document upload and question answering were successfully tested using the replacement key.
+- Gemini embedding, generation and grounding requests succeeded.
 
-**Remaining action:**
-- Revoke the exposed Gemini API key in Google AI Studio.
-- Generate a replacement key and update the local environment configuration.
-- Never commit actual API keys to version control.
-
-**Status:** Repository staging has passed the credential-pattern scan. Credential revocation must be confirmed separately.
+**Status:** Resolved for Milestone 1. API credentials must remain outside version control.
 
 ## 6. Verification of User-Reported Corrections
 
