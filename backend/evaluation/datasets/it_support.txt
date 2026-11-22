@@ -1,0 +1,13 @@
+INTERNAL IT SUPPORT KNOWLEDGE BASE
+
+Password reset
+Employees can reset a forgotten company password through the self-service password portal at https://password.example.internal. The employee must have access to their registered recovery email or authenticator. If both recovery methods are unavailable, contact the IT Service Desk and complete identity verification. IT staff must never ask users to disclose their current password.
+
+VPN connection
+To connect to the corporate VPN, install the approved SecureConnect client, sign in with the company account, and approve the multi-factor authentication prompt. If the VPN remains disconnected, verify internet access, restart SecureConnect, and check that the device date and time are correct. If the problem continues, submit an IT ticket with the client error code and operating system version.
+
+Software installation
+Standard software is installed from the managed Company Software Portal. Administrator privileges are not granted to standard employee accounts. Requests for software not listed in the portal must include the business justification, software name, vendor, and manager approval. IT Security reviews non-standard software requests before installation.
+
+Hardware support
+For a damaged company laptop, stop using the device if the battery is swollen, the device is unusually hot, or there is visible electrical damage. Contact the IT Service Desk and provide the asset tag. Do not attempt to open or repair the laptop yourself.

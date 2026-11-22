@@ -1,0 +1,18 @@
+[project]
+name = "knowledge-retrieval-platform"
+version = "1.0.0"
+description = "Milestone 1 multi-agent RAG knowledge retrieval and query resolution platform."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+markers = [
+    "unit: deterministic unit tests without external provider calls",
+    "integration: backend component and API integration tests",
+    "workflow: LangGraph query workflow tests",
+]

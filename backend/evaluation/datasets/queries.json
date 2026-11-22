@@ -1,0 +1,68 @@
+{
+  "queries": [
+    {
+      "id": "hr-factual-01",
+      "domain": "HR",
+      "category": "factual",
+      "question": "How many days of paid annual leave does a full-time employee receive?",
+      "relevant_files": ["hr_policy.txt"],
+      "relevant_evidence": ["18 working days of paid annual leave per calendar year"]
+    },
+    {
+      "id": "hr-procedural-01",
+      "domain": "HR",
+      "category": "procedural",
+      "question": "How far in advance should an employee submit an annual leave request?",
+      "relevant_files": ["hr_policy.txt"],
+      "relevant_evidence": ["five working days before the planned start date"]
+    },
+    {
+      "id": "hr-comparative-01",
+      "domain": "HR",
+      "category": "comparative",
+      "question": "Compare paid parental leave for primary and secondary caregivers.",
+      "relevant_files": ["hr_policy.txt"],
+      "relevant_evidence": ["primary caregivers receive 16 weeks of paid parental leave", "secondary caregivers receive 4 weeks of paid parental leave"]
+    },
+    {
+      "id": "hr-unavailable-01",
+      "domain": "HR",
+      "category": "unavailable-information",
+      "question": "What is the company's annual performance bonus percentage?",
+      "relevant_files": [],
+      "relevant_evidence": []
+    },
+    {
+      "id": "it-factual-01",
+      "domain": "IT Support",
+      "category": "factual",
+      "question": "Which application is used to connect to the corporate VPN?",
+      "relevant_files": ["it_support.txt"],
+      "relevant_evidence": ["install the approved SecureConnect client"]
+    },
+    {
+      "id": "it-procedural-01",
+      "domain": "IT Support",
+      "category": "procedural",
+      "question": "What steps should I take if the VPN remains disconnected?",
+      "relevant_files": ["it_support.txt"],
+      "relevant_evidence": ["verify internet access, restart SecureConnect, and check that the device date and time are correct"]
+    },
+    {
+      "id": "it-comparative-01",
+      "domain": "IT Support",
+      "category": "comparative",
+      "question": "Compare the process for standard software installation with a non-standard software request.",
+      "relevant_files": ["it_support.txt"],
+      "relevant_evidence": ["standard software is installed from the managed company software portal", "business justification, software name, vendor, and manager approval"]
+    },
+    {
+      "id": "it-unavailable-01",
+      "domain": "IT Support",
+      "category": "unavailable-information",
+      "question": "What is the direct phone number of the IT Service Desk?",
+      "relevant_files": [],
+      "relevant_evidence": []
+    }
+  ]
+}

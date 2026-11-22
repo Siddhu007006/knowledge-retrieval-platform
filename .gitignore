@@ -1,0 +1,44 @@
+# ── Secrets (NEVER commit) ───────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+# Keep .env.example files — they document required variables
+!.env.example
+
+# ── Python runtime ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Backend runtime data (recreated on first upload) ─────────────────────────
+backend/data/
+
+# ── Node / pnpm ───────────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ── Next.js build artifacts ───────────────────────────────────────────────────
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# ── Vercel ────────────────────────────────────────────────────────────────────
+.vercel
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Generated retrieval evaluation reports
+backend/evaluation/results/
+
+# Manual ingestion test artifact
+backend/m13_csv_test.csv
